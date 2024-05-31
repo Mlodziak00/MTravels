@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Delicious;
+    src: url('./../content/font/MinecraftRegular.otf');
+}
+
+@font-face {
+    font-family: Delicious2;
+    font-weight: bold;
+    src: url('./../content/font/MinecraftBold.otf');
+}
+html {
+    height: auto;
+}
+body {
+    height: auto;
+    font-family: Delicious;
+    background-image: url(./../content/images/bg.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+header{
+    font-family: Delicious2;
+    color: darkgoldenrod;
+    text-align: center;
+    font-size: 50px;
+    height: 10%;
+}
+.test{
+    padding-top: 60px;
+    height: 10%;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+}
+.content{
+    padding-top: 60px;
+    height: 10%;
+    color: rgb(75, 75, 75);
+    text-align: center;
+    font-size: 40px;
+}
+table{
+    margin-top: 20px;
+    border-top: 2px dashed black;
+    border-bottom: 2px dashed  black;
+    margin-left: auto;
+    margin-right: auto;
+}
